@@ -1,0 +1,121 @@
+.container{
+    display: flex;
+    /* margin: 50px; */
+    /* left: 50px; */
+    /* top: 17%; */
+    top: 100px;
+    align-items: center;
+    flex-direction: column;
+    position: inherit;
+}
+
+
+.container-head{
+    background-color: #28274d;
+    border-radius: 35px 35px 35px 35px;
+    margin-top: 180px;
+    width: 1440px;
+    height: 530px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.head-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+.head-header h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.head-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: inherit;
+    
+}
+
+.head-buttons h2{
+    margin: 0px;
+    color: #28274d;
+}
+
+.head-buttons button{
+    width: 126px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.head-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    column-gap: 60px;
+    height: 400px;
+}
+
+.head-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: inherit;
+}
+
+.head-img img{
+    width: 400px;
+    height: 350px;
+    border-radius: 35px;
+}
+
+.head-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    position: initial;
+    width: 750px;
+
+}
+
+.head-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.head-text h3{
+    font-size: auto;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+

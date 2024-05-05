@@ -1,0 +1,66 @@
+.Registered-page-container{
+    background-color: #28274d;
+    border-radius: 35px;
+    margin-top: 180px;
+    width: 1440px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Registered-page-container hr{
+    width: 1400px;
+}
+
+.Registered-page-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:550px;
+    width: 1440px;
+    margin: 0px 50px 0px 50px;
+
+}
+
+.Registered-page-body{
+    width: 1440px;
+    height: fit-content;
+    margin-bottom: 50px;;
+}
+
+.list-allRegisteredposts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 35px;
+    gap: 20px;
+    width: 1400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+
+.Registeredpost{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    width: 1300px;
+    height: 100px;
+    background-color: #575AA1;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.Registeredpost-poster{
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+}

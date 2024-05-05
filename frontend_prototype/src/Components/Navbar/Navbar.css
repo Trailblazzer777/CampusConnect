@@ -1,0 +1,126 @@
+div.navbar{
+    border-radius: 1px 1px 50px 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #28274d;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1520px;
+    height: 90px;
+    position: fixed;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.logo{
+height: fit-content;
+width: fit-content;
+color: white;
+text-align: center;
+margin: 0px;
+gap: 10px;
+}
+
+
+.nav-search{
+    align-items: center;
+    display: flex;
+    width: 350px;
+    height: 40px;
+}
+
+.nav-search input[type="text"] {
+    width: 350px;
+    height: 35px;
+    background-color:#575aa1;
+    border: 1px solid #7a7a7a;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.nav-search input[type="text"]::placeholder {
+    color: white;
+}
+
+.nav-search button {
+    right: 1000px;
+    left: 560px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: #28274d;
+    margin: 20px;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-menu1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #626262;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.nav-menu2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #626262;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.nav-menu1 li{
+    display: inline;
+}
+
+.nav-menu2 li{
+    display: inline;
+}
+
+.nav-menu1 button{
+    width: 45px;
+    height: 45px;
+    background-color: #575AA1;
+    margin : 20px;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-menu2 button{
+    width: 45px;
+    height: 45px;
+    background-color: #575AA1;
+    margin : 20px;
+    color: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profile-button{
+    width: 65px;
+    height: 65px;
+    color: white;
+    background-color: #575AA1;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+

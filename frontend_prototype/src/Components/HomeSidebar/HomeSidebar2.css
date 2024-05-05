@@ -1,0 +1,43 @@
+.sidebar2-container{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 1px;
+    width: 1510px;
+    height: 1px;
+}
+
+
+
+
+.sidebar2-back {
+    width: 250px;
+    height: 630px;
+    background: #28274d;
+    border-radius: 50px 0px 0px 50px;
+    border: 1px black solid;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar2-topbox{
+    width: 213px;
+    height: 275px;
+    background-color: #575AA1 ;
+    border-radius: 35px;
+    margin: 20px;
+}
+
+.sidebar2-bottombox{
+    width: 213px;
+    height: 275px;
+    background-color: #575AA1 ;
+    border-radius: 35px;
+    margin: 20px;
+}

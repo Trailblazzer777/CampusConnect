@@ -1,0 +1,299 @@
+.createri-container{
+    display: flex;
+    top: 180px;
+    color: white;
+    position: initial;
+    align-items: center;
+    flex-direction: column;
+}
+
+.createri-container-head{
+    background-color: #28274d;
+    border-radius: 35px;
+    margin-top: 180px;
+    width: 1440px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+
+}
+
+.createri-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+.createri-body{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1440px;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+.createri-body-head{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    height: fit-content;
+    background-color: #575AA1;
+    border-radius: 35px;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.createri-head1-img{
+    width: fit-content;
+    height: fit-content;
+    background-color: #181a57;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.addproduct-thumbnail-img{
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+.createri-head1-text{
+    width: 400px;
+    height: fit-content;
+    background-color: #181a57;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.createri-head1-text select{
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.createri-head1-text option{
+    color: #181a57;
+}
+
+.createri-body1-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 800px;
+    height: fit-content;
+    background-color: #575AA1;
+    border-radius: 35px;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.createri-body-info{
+    width: 700px;
+    height: fit-content;
+    background-color: #181a57;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.createri-body-info input{
+    border-style: solid;
+}
+
+.createri-body-info textarea, input{
+    width: 650px;
+    height: 30px;
+    min-height: 30px;
+    resize: none;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border-color: white solid 1px;
+    border-style: solid;
+}
+
+.createri-date-time{
+    width: 700px;
+    height: fit-content;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.createri-time{
+    width: 400px;
+    height:fit-content;
+    background-color: #181a57;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    border-radius: 35px;
+}
+
+.createri-time label{
+    margin-left: 135px ;
+}
+.createri-time h3{
+    margin: 0px 0px 0px 15px;
+}
+
+.createri-date{
+    width: fit-content;
+    height:fit-content;
+    background-color: #181a57;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 35px;
+}
+
+.createri-date input{
+    width: 225px;
+    height: fit-content;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.createri-time input{
+    width: 350px;
+    height: fit-content;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+
+}
+
+.createri-date-time input[type="date"]::-webkit-calendar-picker-indicator , input[type="time"]::-webkit-calendar-picker-indicator{
+    filter: invert(1); 
+}
+
+.createri-location{
+    width: fit-content;
+    height: fit-content;
+    background-color: #181a57;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.createri-registeration{
+    width: 700px;
+    height: 200px;
+    background-color: #181a57;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.createri-event-description{
+    width: 700px;
+    height: fit-content;
+    background-color: #181a57;
+    border-radius: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.createri-event-description textarea{
+    width: 650px;
+    height: 30px;
+    min-height: 30px;
+    resize: none;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.createri-event-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 700px;
+    margin: 10px 50px 50px 50px;
+}
+
+.createri-event-button button{
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: #181a57;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.createri-event-button h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+}
